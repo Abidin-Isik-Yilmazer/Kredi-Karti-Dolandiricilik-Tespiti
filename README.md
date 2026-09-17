@@ -34,7 +34,7 @@ Kredi-Karti-Dolandiricilik-Tespiti/
 1. Projeyi bilgisayarınıza klonlayın:
 
 ```bash
-git clone [https://github.com/Abidin-Isik-Yilmazer/Kredi-Karti-Dolandiricilik-Tespiti.git](https://github.com/Abidin-Isik-Yilmazer/Kredi-Karti-Dolandiricilik-Tespiti.git)
+git clone https://github.com/Abidin-Isik-Yilmazer/Kredi-Karti-Dolandiricilik-Tespiti.git
 ```
 
 2. Proje dizinine gidin:
