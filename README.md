@@ -21,7 +21,7 @@ Kredi-Karti-Dolandiricilik-Tespiti/
 │   ├── data_processor.py   # StandardScaler ile veriyi ölçekler ve Train/Test olarak böler.
 │   ├── model_handler.py    # Isolation Forest algoritmasının yapılandırılması ve eğitimi.
 │   └── evaluator.py        # Classification Report ve Confusion Matrix (Isı Haritası) çıktısı üretir.
-├── main.py                 # Sınıfları başlatan ve projenin akışını yöneten ana orkestra şefi.
+├── main.py                 # Sınıfları başlatan ve projenin akışını yöneten sınıf
 ├── requirements.txt        # Projenin çalışması için gerekli kütüphaneler listesi.
 └── .gitignore              # Veri setini ve sanal ortam klasörlerini GitHub'dan izole eder.
 ```
