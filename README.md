@@ -1,11 +1,8 @@
 # 🛡️ Kredi Kartı Dolandırıcılık Tespiti
 
-Bu proje, makine öğrenmesindeki en zorlu problemlerden biri olan **dengesiz veri setleri (imbalanced datasets)** ile başa çıkmak için tasarlanmıştır. 
-Yüz binlerce yasal finansal işlem arasına gizlenmiş çok az sayıdaki sahtekarlık (fraud) vakasını tespit etmek amacıyla, **Nesne Yönelimli Programlama (OOP)** standartlarına uygun olarak
-modüler bir yapıda geliştirilmiştir.
+Bu proje, makine öğrenmesindeki en zorlu problemlerden biri olan **dengesiz veri setleri (imbalanced datasets)** ile başa çıkmak için tasarlanmıştır. Yüz binlerce yasal finansal işlem arasına gizlenmiş çok az sayıdaki sahtekarlık (fraud) vakasını tespit etmek amacıyla, **Nesne Yönelimli Programlama (OOP)** standartlarına uygun olarak modüler bir yapıda geliştirilmiştir.
 
-Dengesiz verilerde standart sınıflandırma algoritmaları yerine, farklılıkları tespit etmede çok daha güçlü bir yaklaşım
-olan **Isolation Forest (İzolasyon Ormanı)** tabanlı Anormallik Tespiti (Anomaly Detection) modeli kullanılmıştır.
+Dengesiz verilerde standart sınıflandırma algoritmaları yerine, farklılıkları tespit etmede çok daha güçlü bir yaklaşım olan **Isolation Forest (İzolasyon Ormanı)** tabanlı Anormallik Tespiti (Anomaly Detection) modeli kullanılmıştır.
 
 ## 🚀 Projenin Öne Çıkan Özellikleri
 
@@ -49,7 +46,13 @@ cd Kredi-Karti-Dolandiricilik-Tespiti
 pip install pandas scikit-learn matplotlib seaborn
 ```
 
-4. Projeyi çalıştırın:
+4. Veri setinin indirilebilmesi için `data` klasörünü oluşturun (Git boş klasörleri izlemediği için bu adım zorunludur):
+
+```bash
+mkdir data
+```
+
+5. Projeyi çalıştırın:
 
 ```bash
 python main.py
