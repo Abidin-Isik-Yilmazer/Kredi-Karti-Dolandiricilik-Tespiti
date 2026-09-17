@@ -34,7 +34,7 @@ Kredi-Karti-Dolandiricilik-Tespiti/
 1. Projeyi bilgisayarınıza klonlayın:
 
 ```bash
-git clone https://github.com/Abidin-Isik-Yilmazer/Kredi-Karti-Dolandiricilik-Tespiti.git
+git clone [https://github.com/Abidin-Isik-Yilmazer/Kredi-Karti-Dolandiricilik-Tespiti.git](https://github.com/Abidin-Isik-Yilmazer/Kredi-Karti-Dolandiricilik-Tespiti.git)
 ```
 
 2. Proje dizinine gidin:
@@ -46,7 +46,7 @@ cd Kredi-Karti-Dolandiricilik-Tespiti
 3. Gerekli kütüphaneleri yükleyin:
 
 ```bash
-pip install -r requirements.txt
+pip install pandas scikit-learn matplotlib seaborn
 ```
 
 4. Projeyi çalıştırın:
